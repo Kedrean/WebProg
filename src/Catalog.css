@@ -113,4 +113,6 @@ body {
 .detail-description {
 	color: #555;
 	font-size: 1rem;
+	text-align: center;
+	white-space: pre-line;
 }

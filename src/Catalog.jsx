@@ -18,9 +18,9 @@ const Home = () => (
 );
 
 const productsData = [ 
-	{id: 1, name: "tour dates hoodie", price: 60, description: "premium heavyweight 12.5oz. hoodie 75% cotton / 25% polyester screen printed graphics", imageUrl: "https://store.porterrobinson.com/cdn/shop/files/Porter_TourHoodieBack.png"},
-	{id: 2, name: "cat logo hoodie", price: 60, description: "premium heavyweight 12.5oz. hoodie 75% cotton / 25% polyester screen printed graphics", imageUrl: "https://store.porterrobinson.com/cdn/shop/files/cat-hoodie_1.png" },
-	{id: 3, name: "tour dates tee", price: 30, description: "100% cotton screen printed graphics oversized fit custom printed neck label", imageUrl: "https://store.porterrobinson.com/cdn/shop/files/worldtour-shirt-front_1.png" }
+	{id: 1, name: "tour dates hoodie", price: 60, description: "- premium heavyweight 12.5oz. hoodie \n- 75% cotton / 25% polyester \n- screen printed graphics", imageUrl: "https://store.porterrobinson.com/cdn/shop/files/Porter_TourHoodieBack.png"},
+	{ id: 2, name: "cat logo hoodie", price: 60, description: "premium heavyweight 12.5oz. hoodie \n- 75% cotton / 25% polyester \n- screen printed graphics", imageUrl: "https://store.porterrobinson.com/cdn/shop/files/cat-hoodie_1.png" },
+	{ id: 3, name: "tour dates tee", price: 30, description: "100% cotton \n- screen printed graphics \n- oversized fit \n- custom printed neck label", imageUrl: "https://store.porterrobinson.com/cdn/shop/files/worldtour-shirt-front_1.png" }
 ];
 
 const ProductCard = ({ product }) => (
